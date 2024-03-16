@@ -1,5 +1,7 @@
 ## Week1
-Week one assignment
+
+Depolyed on Sepolia testnet:
+[Link](https://sepolia.etherscan.io/address/0x76bcd014b84d67cd7eed4c8edf27a2df46c083e8)
 
 1. **Contract deployed:**
    - Sreerag deployed the contract at `0x76BcD014b84d67cD7eED4c8eDf27a2DF46c083E8`
