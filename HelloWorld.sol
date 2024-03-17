@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.9.0;
 
-contract HelloWorld {
+contract HelloWorld{
     string public message;
     address public owner;
 
@@ -15,11 +15,11 @@ contract HelloWorld {
         owner = msg.sender;
     }
 
-    function setMessage(string memory _newMessage) public onlyOwner {
+    function setMessage(string calldata _newMessage) public onlyOwner {
         message = _newMessage;
     }
 
-    function changeOwner(address _newOwner) public onlyOwner {
+    function changeOwner(address _newOwner) public onlyOwner{
         owner = _newOwner;
     }
 }
